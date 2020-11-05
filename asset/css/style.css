@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,300;1,500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(219, 213, 213) !important;
+  height: auto;
+}
+.content {
+  width: 450px;
+  height: auto;
+  margin: 0px auto;
+  background: white;
+  text-align: center;
+}
+h1 {
+  font-size: xx-large;
+}
+video {
+  width: 400px;
+  height: auto;
+}
+.fab {
+  font-size: xx-large;
+}
+button {
+  height: 60px;
+  border: none;
+  background: none;
+  padding: 0px;
+}
+.header {
+  width: 200px;
+  height: auto;
+  margin: 20px;
+}
+.fas {
+  font-size: 60px;
+  color: white;
+}
+.fab {
+  margin-right: 5px;
+}
+.slider {
+  background-image: url("../img/certificate.jpg"),
+    url("https://image.freepik.com/fotos-gratis/foto-horizontal-da-mulher-feliz-30-anos-sorrindo-e-demonstrando-a-tela-vazia-preta-do-laptop-prata-na-camera-com-o-dedo-sobre-a-parede-branca_171337-1182.jpg");
+  background-color: #cccccc;
+  height: 450px;
+  background-position: 228px 260px, center;
+  background-repeat: no-repeat;
+  background-size: 190px 130px, cover;
+  margin: 0px;
+}
+.slider-title {
+  font-size: 36px;
+  padding: 40px 0px 0px 30px;
+  text-align: left;
+  width: 100px;
+  margin: 0px;
+}
+.slider-subtitle {
+  font-size: 15px;
+  text-align: left;
+  padding: 0px 30px;
+  width: 250px;
+  margin-top: 10px;
+}
+.slider-button {
+  margin-top: 170px;
+  background: orange;
+  width: 210px;
+  height: 60px;
+  border-radius: 0px 30px 30px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 25px;
+  border: none;
+  visibility: hidden;
+}
+.slider-button-h3 {
+  font-size: 16px;
+  text-align: left;
+  margin: 0px;
+  font-style: oblique;
+  color: white;
+  font-weight: bold;
+}
+.features {
+  background-color: rgba(7, 171, 154);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.feature-main-title {
+  font-size: 25px;
+  width: 300px;
+  color: white;
+  margin: 40px auto;
+  line-height: 40px;
+}
+.feature-card {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background-color: rgb(73 73 73 / 1);
+  margin-bottom: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.55);
+  visibility: hidden;
+}
+.feature-card-text {
+  padding: 10px;
+  color: white;
+}
+.feature-image-wrapper {
+  background-color: whitesmoke;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+.feature-image {
+  width: auto;
+  height: 200px;
+}
+.feature-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.feature-txt {
+  font-size: 12px;
+  width: 250px;
+  margin: 5px auto;
+  text-align: center;
+}
+.awards {
+  padding: 20px;
+  background-color: white;
+}
+.awards-image {
+  width: auto;
+  height: 60px;
+}
+.awards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.awards-grid-image {
+  width: 150px;
+  padding: 20px;
+}
+.calltoaction-wrapper {
+  width: 100%;
+  height: 480px;
+  background-color: #919191;
+  padding: 65px 0px;
+}
+.calltoaction {
+  visibility: hidden;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/whatsappbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.42);
+}
+.calltoaction-button {
+  font-size: 18px;
+  font-weight: bold;
+  width: 200px;
+  height: 60px;
+  text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  background-color: #25d366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+}
+.calltoaction-button-display {
+  display: none;
+}
+.calltoaction-button:hover {
+  background-color: #075e54;
+  color: #cccccc;
+  text-decoration: none;
+}
+.calltoaction-user-wrapper {
+  padding: 10px 20px;
+  background-color: #075e54;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-align: left;
+}
+.calltoaction-user {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: none;
+  margin-right: 10px;
+}
+.calltoaction-name {
+  font-size: 22px;
+  margin: 0px;
+}
+.calltoaction-status {
+  font-size: 12px;
+  margin: 0px;
+}
+.calltoaction-chat {
+  padding: 5px;
+  border: 0.1px solid #ddd;
+  margin: 20px auto 20px 15px;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(194, 187, 181, 1);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(194, 187, 181, 1);
+  box-shadow: 0px 1px 0px 0px rgba(194, 187, 181, 1);
+  text-align: left;
+  visibility: hidden;
+}
+.calltoaction-chat-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+}
+.calltoaction-chat-img {
+  width: 100px;
+  overflow: hidden;
+  border-radius: 5px 0px 0px 5px;
+}
+.calltoaction-chat-txt {
+  text-align: left;
+  padding: 5px;
+  width: 200px;
+  border-radius: 0px 5px 5px 0px;
+}
+.calltoaction-chat-txt1 {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.calltoaction-chat-txt2 {
+  margin: 0px;
+  font-size: 11px;
+  font-weight: normal;
+  color: #919191;
+}
+.calltoaction-chat-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+.calltoaction-chat-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  width: 380px;
+  height: 40px;
+  border: 0.1px solid #ddd;
+  padding: 5px 10px;
+}
+.icon-chat-input {
+  color: #919191;
+  width: 20px;
+  height: 20px;
+}
+.icon-chat-micro {
+  width: 40px;
+  height: 40px;
+  background-color: #128c7e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt-chat-input {
+  color: #919191;
+  margin: 0px 100px 0px 5px;
+  width: 150px;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: rgba(7, 171, 154);
+  width: 100%;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding: 19px;
+}
+.footer-txt {
+  font-size: 12px;
+  margin: 0px auto;
+}
+.btnwsapp {
+  text-decoration: none;
+}
+/* Style Modal */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: rgba(7, 171, 154) !important;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.modal-title {
+  color: white !important;
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* End Style Modal */
