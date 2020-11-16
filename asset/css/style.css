@@ -6,9 +6,7 @@ body {
   height: auto;
 }
 .content {
-  width: 450px;
-  height: auto;
-  margin: 0px auto;
+  padding: 0px !important;
   background: white;
   text-align: center;
 }
@@ -23,7 +21,7 @@ video {
   font-size: xx-large;
 }
 button {
-  height: 60px;
+  height: 40px;
   border: none;
   background: none;
   padding: 0px;
@@ -34,41 +32,35 @@ button {
   margin: 20px;
 }
 .fas {
-  font-size: 60px;
+  font-size: 40px;
   color: white;
 }
 .fab {
   margin-right: 5px;
 }
 .slider {
-  background-image: url("../img/certificate.jpg"),
-    url("https://image.freepik.com/fotos-gratis/foto-horizontal-da-mulher-feliz-30-anos-sorrindo-e-demonstrando-a-tela-vazia-preta-do-laptop-prata-na-camera-com-o-dedo-sobre-a-parede-branca_171337-1182.jpg");
-  background-color: #cccccc;
+  background-image: url("../img/background.png");
   height: 450px;
-  background-position: 228px 260px, center;
   background-repeat: no-repeat;
-  background-size: 190px 130px, cover;
-  margin: 0px;
+  background-position: center;
+  background-size: cover;
 }
 .slider-title {
   font-size: 36px;
-  padding: 40px 0px 0px 30px;
   text-align: left;
-  width: 100px;
   margin: 0px;
 }
 .slider-subtitle {
   font-size: 15px;
   text-align: left;
-  padding: 0px 30px;
   width: 250px;
   margin-top: 10px;
 }
 .slider-button {
-  margin-top: 170px;
+  margin-top: 220px;
   background: orange;
-  width: 210px;
-  height: 60px;
+  width: 350px;
+  height: 40px;
   border-radius: 0px 30px 30px 0px;
   display: flex;
   flex-direction: row;
@@ -84,9 +76,10 @@ button {
   font-style: oblique;
   color: white;
   font-weight: bold;
+  margin-right: 40px;
 }
 .features {
-  background-color: rgba(7, 171, 154);
+  background-color: #00a99d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,16 +87,22 @@ button {
 }
 .feature-main-title {
   font-size: 25px;
-  width: 300px;
+  width: 100%;
   color: white;
   margin: 40px auto;
   line-height: 40px;
+}
+.feature-wrapp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
 }
 .feature-card {
   width: 300px;
   height: 300px;
   text-align: center;
-  background-color: rgb(73 73 73 / 1);
+  background-color: #494949;
   margin-bottom: 30px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.55);
@@ -138,18 +137,19 @@ button {
 .awards {
   padding: 20px;
   background-color: white;
+  padding-bottom: 50px;
 }
 .awards-image {
   width: auto;
-  height: 60px;
+  height: 100px;
 }
 .awards-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .awards-grid-image {
-  width: 150px;
+  width: auto;
   padding: 20px;
 }
 .calltoaction-wrapper {
@@ -160,7 +160,8 @@ button {
 }
 .calltoaction {
   visibility: hidden;
-  width: 100%;
+  margin: 0px auto;
+  width: 400px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -186,7 +187,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 150px auto;
+  margin: 210px auto;
 }
 .calltoaction-button-display {
   display: none;
@@ -276,7 +277,8 @@ button {
   align-items: center;
   background-color: white;
   border-radius: 25px;
-  width: 380px;
+  width: 330px;
+  margin-right: 10px;
   height: 40px;
   border: 0.1px solid #ddd;
   padding: 5px 10px;
@@ -297,8 +299,8 @@ button {
 }
 .txt-chat-input {
   color: #919191;
-  margin: 0px 100px 0px 5px;
-  width: 150px;
+  margin: 0px 50px 0px 5px;
+  width: 130px;
   text-decoration: none;
 }
 
@@ -313,6 +315,10 @@ button {
 .footer-txt {
   font-size: 12px;
   margin: 0px auto;
+}
+.footer-img {
+  width: 54px;
+  height: auto;
 }
 .btnwsapp {
   text-decoration: none;
@@ -344,7 +350,7 @@ button {
 }
 .modal-title {
   color: white !important;
-  font-size: 34px;
+  font-size: 28px;
   font-weight: bolder;
 }
 
@@ -363,3 +369,124 @@ button {
   cursor: pointer;
 }
 /* End Style Modal */
+
+/*xtra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .slider {
+    padding: 50px 0px 10px 2rem;
+    margin: 0px;
+  }
+  .slider-title {
+    width: 200px;
+  }
+  .slider-button {
+    margin-top: 190px;
+    width: 200px;
+    height: 60px;
+    padding: 0px 0px 0px 10px;
+  }
+  .slider-button-h3 {
+    font-size: 15px;
+    margin-right: 0px;
+  }
+  .slider-subtitle {
+    width: 200px;
+  }
+  button {
+    height: 60px;
+  }
+  .fas {
+    font-size: 60px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slider {
+    padding: 50px 0px 10px 10rem;
+    margin: 0px;
+  }
+  .slider-title {
+    width: 200px;
+  }
+  .slider-button {
+    margin-top: 190px;
+    width: 200px;
+    height: 60px;
+    padding: 0px 0px 0px 10px;
+  }
+  .slider-button-h3 {
+    font-size: 15px;
+    margin-right: 0px;
+  }
+  .slider-subtitle {
+    width: 200px;
+  }
+  button {
+    height: 60px;
+  }
+  .fas {
+    font-size: 60px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slider {
+    padding: 50px 0px 10px 20rem;
+    margin: 0px;
+  }
+  .slider-title {
+    width: 200px;
+  }
+  .slider-button {
+    margin-top: 190px;
+    width: 200px;
+    height: 60px;
+    padding: 0px 0px 0px 10px;
+  }
+  .slider-button-h3 {
+    font-size: 15px;
+    margin-right: 0px;
+  }
+  button {
+    height: 60px;
+  }
+  .fas {
+    font-size: 60px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .slider {
+    padding: 50px 0px 10px 30rem;
+    margin: 0px;
+  }
+  .slider-title {
+    width: 200px;
+  }
+  .slider-button {
+    margin-top: 190px;
+    width: 180px;
+    height: 60px;
+    padding: 0px 0px 0px 5px;
+  }
+  .slider-button-h3 {
+    font-size: 15px;
+    margin-right: 0px;
+  }
+  button {
+    height: 60px;
+  }
+  .fas {
+    font-size: 60px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .slider {
+    padding: 70px 250px 20px 250px;
+  }
+}
