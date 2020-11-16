@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,300;1,500&display=auto");
-
 body {
-  font-family: "Roboto", sans-serif;
   background: rgb(219, 213, 213) !important;
   height: auto;
+  font-display: block !important;
 }
 .content {
   padding: 0px !important;
